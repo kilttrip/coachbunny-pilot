@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="color-scheme" content="dark" />
+    <title>CoachBunny — Lemon Line to Ibiza Hop</title>
+    <meta
+      name="description"
+      content="Ibiza doesn’t have to start at the airport. CoachBunny creates Hops: slower, stranger route ideas for travellers who want the journey to have a story."
+    />
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="https://coach-bunny.replit.app/" />
+    <meta property="og:title" content="CoachBunny — Lemon Line to Ibiza Hop" />
+    <meta
+      property="og:description"
+      content="Ibiza doesn’t have to start at the airport. A pilot concept in research."
+    />
+    <meta property="og:image" content="https://coach-bunny.replit.app/images/coachbunny-share.png" />
+    <meta property="og:image:secure_url" content="https://coach-bunny.replit.app/images/coachbunny-share.png" />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="CoachBunny — Lemon Line to Ibiza Hop" />
+    <meta
+      name="twitter:description"
+      content="Ibiza doesn’t have to start at the airport. A pilot concept in research."
+    />
+    <meta name="twitter:image" content="https://coach-bunny.replit.app/images/coachbunny-share.png" />
+    <link rel="canonical" href="https://coach-bunny.replit.app/" />
+    <link rel="stylesheet" href="/styles.css" />
+    <link rel="icon" href="data:," />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="topbar" role="banner">
+      <div class="container topbar__inner">
+        <div class="brand" aria-label="CoachBunny">
+          <span class="brand__mark" aria-hidden="true">CB</span>
+          <span class="brand__name">CoachBunny</span>
+        </div>
+        <nav class="topnav" aria-label="On page">
+          <a class="topnav__link" href="#lemon-line">Pilot</a>
+          <a class="topnav__link" href="#caveat">Caveat</a>
+        </nav>
+      </div>
+    </header>
+
+    <main id="main" class="container" role="main">
+      <section class="hero" aria-label="CoachBunny">
+        <div class="hero__grid">
+          <div class="hero__copy">
+            <h1 class="hero__title">Ibiza doesn’t have to start at the airport.</h1>
+            <p class="hero__subhero">
+              CoachBunny creates Hops: slower, stranger route ideas for travellers who want the
+              journey to have a story.
+            </p>
+            <p class="safety-line">
+              Not tickets. Not tours. Not transport. Travellers verify and book independently.
+            </p>
+
+            <div class="cta">
+              <a
+                class="cta__button"
+                href="mailto:hello@coachbunny.com?subject=Lemon%20Line%20to%20Ibiza%20Hop%20pilot%20note"
+                data-cta="mailto"
+                rel="nofollow"
+              >
+                Ask for the pilot note
+              </a>
+              <p class="cta__note" id="cta-note" role="status" aria-live="polite">
+                Opens your email app. No form. No personal data is collected on this page.
+              </p>
+            </div>
+
+            <p class="hero__kicker">Stranger routes. Better stories.</p>
+          </div>
+
+          <div class="hero__card" aria-label="Quick definition">
+            <div class="card card--tight hero-visual">
+              <svg
+                class="hero-illustration"
+                viewBox="0 0 520 420"
+                aria-hidden="true"
+                focusable="false"
+                role="img"
+                preserveAspectRatio="xMidYMid slice"
+              >
+                <defs>
+                  <radialGradient id="glowA" cx="30%" cy="30%" r="70%">
+                    <stop offset="0%" stop-color="#ff4fd8" stop-opacity="0.35" />
+                    <stop offset="55%" stop-color="#b2ff4d" stop-opacity="0.20" />
+                    <stop offset="100%" stop-color="#050607" stop-opacity="0" />
+                  </radialGradient>
+                  <radialGradient id="glowB" cx="70%" cy="20%" r="65%">
+                    <stop offset="0%" stop-color="#ffe44d" stop-opacity="0.28" />
+                    <stop offset="70%" stop-color="#050607" stop-opacity="0" />
+                  </radialGradient>
+                  <linearGradient id="routeLine" x1="0" y1="0" x2="1" y2="1">
+                    <stop offset="0%" stop-color="#ffe44d" stop-opacity="0.98" />
+                    <stop offset="52%" stop-color="#b2ff4d" stop-opacity="0.88" />
+                    <stop offset="100%" stop-color="#ff4fd8" stop-opacity="0.80" />
+                  </linearGradient>
+                  <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+                    <feGaussianBlur stdDeviation="4" result="blur" />
+                    <feColorMatrix
+                      in="blur"
+                      type="matrix"
+                      values="1 0 0 0 0  0 1 0 0 0  0 0 1 0 0  0 0 0 1.15 0"
+                      result="glow"
+                    />
+                    <feMerge>
+                      <feMergeNode in="glow" />
+                      <feMergeNode in="SourceGraphic" />
+                    </feMerge>
+                  </filter>
+                  <filter id="paperGrain" x="-20%" y="-20%" width="140%" height="140%">
+                    <feTurbulence type="fractalNoise" baseFrequency="0.95" numOctaves="2" seed="7" />
+                    <feColorMatrix
+                      type="matrix"
+                      values="0 0 0 0 1  0 0 0 0 1  0 0 0 0 1  0 0 0 0.09 0"
+                    />
+                  </filter>
+                </defs>
+
+                <rect x="0" y="0" width="520" height="420" fill="url(#glowA)" />
+                <rect x="0" y="0" width="520" height="420" fill="url(#glowB)" />
+                <rect x="0" y="0" width="520" height="420" filter="url(#paperGrain)" />
+
+                <path
+                  d="M-10,250 C 70,210 95,165 155,150 C 205,137 235,175 275,165 C 320,153 330,112 380,120 C 440,130 462,190 530,210"
+                  fill="none"
+                  stroke="rgba(178,255,77,0.12)"
+                  stroke-width="22"
+                  stroke-linecap="round"
+                />
+                <path
+                  d="M-10,250 C 70,210 95,165 155,150 C 205,137 235,175 275,165 C 320,153 330,112 380,120 C 440,130 462,190 530,210"
+                  fill="none"
+                  stroke="url(#routeLine)"
+                  stroke-width="10"
+                  stroke-linecap="round"
+                  filter="url(#softGlow)"
+                  opacity="0.22"
+                />
+                <path
+                  d="M-10,250 C 70,210 95,165 155,150 C 205,137 235,175 275,165 C 320,153 330,112 380,120 C 440,130 462,190 530,210"
+                  fill="none"
+                  stroke="url(#routeLine)"
+                  stroke-width="4.8"
+                  stroke-linecap="round"
+                  filter="url(#softGlow)"
+                  stroke-dasharray="1 0"
+                />
+
+                <g filter="url(#softGlow)">
+                  <circle cx="78" cy="205" r="10.5" fill="rgba(178,255,77,0.12)" />
+                  <circle cx="78" cy="205" r="5.2" fill="#b2ff4d" />
+
+                  <circle cx="155" cy="150" r="12.0" fill="rgba(255,228,77,0.12)" />
+                  <circle cx="155" cy="150" r="6.0" fill="#ffe44d" />
+
+                  <circle cx="232" cy="170" r="10.8" fill="rgba(178,255,77,0.11)" />
+                  <circle cx="232" cy="170" r="5.3" fill="#b2ff4d" />
+
+                  <circle cx="275" cy="165" r="13.0" fill="rgba(255,228,77,0.12)" />
+                  <circle cx="275" cy="165" r="6.8" fill="#ffe44d" />
+
+                  <circle cx="356" cy="126" r="11.0" fill="rgba(255,79,216,0.10)" />
+                  <circle cx="356" cy="126" r="5.5" fill="#ff4fd8" />
+
+                  <circle cx="425" cy="148" r="11.2" fill="rgba(255,228,77,0.11)" />
+                  <circle cx="425" cy="148" r="5.6" fill="#ffe44d" />
+
+                  <circle cx="486" cy="192" r="13.4" fill="rgba(255,79,216,0.10)" />
+                  <circle cx="486" cy="192" r="7.0" fill="#ff4fd8" />
+                </g>
+
+                <g opacity="0.65" filter="url(#softGlow)">
+                  <path
+                    d="M365,98 C 390,86 420,86 450,98"
+                    fill="none"
+                    stroke="rgba(233,242,239,0.55)"
+                    stroke-width="2.2"
+                    stroke-linecap="round"
+                    stroke-dasharray="2 8"
+                  />
+                  <circle cx="452" cy="98" r="2.7" fill="rgba(233,242,239,0.7)" />
+                  <circle cx="462" cy="102" r="1.9" fill="rgba(233,242,239,0.55)" />
+                </g>
+
+                <g opacity="0.62" filter="url(#softGlow)">
+                  <circle cx="500" cy="92" r="7.5" fill="rgba(255,228,77,0.10)" />
+                  <circle cx="500" cy="92" r="2.6" fill="rgba(255,228,77,0.55)" />
+                  <circle cx="510" cy="108" r="5.5" fill="rgba(255,79,216,0.08)" />
+                  <circle cx="510" cy="108" r="2.1" fill="rgba(233,242,239,0.45)" />
+                </g>
+
+                <g opacity="0.9">
+                  <path
+                    d="M110,310 C 150,305 210,300 270,318 C 325,334 372,332 420,322 C 455,315 482,316 520,330"
+                    fill="none"
+                    stroke="rgba(255,255,255,0.10)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </g>
+
+                <g opacity="0.9" filter="url(#softGlow)">
+                  <path
+                    d="M135,120 C 155,95 188,98 196,124 C 204,150 182,170 158,160 C 136,150 122,140 135,120 Z"
+                    fill="rgba(255,228,77,0.16)"
+                    stroke="rgba(255,228,77,0.42)"
+                    stroke-width="1.4"
+                  />
+                  <path
+                    d="M175,108 C 190,90 214,86 232,98"
+                    fill="none"
+                    stroke="rgba(178,255,77,0.55)"
+                    stroke-width="1.6"
+                    stroke-linecap="round"
+                  />
+                </g>
+
+                <g opacity="0.46">
+                  <path
+                    d="M70,270 C 86,255 102,245 120,238"
+                    fill="none"
+                    stroke="rgba(233,242,239,0.35)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                    stroke-dasharray="2 9"
+                  />
+                  <path
+                    d="M122,238 C 130,226 144,223 150,235"
+                    fill="none"
+                    stroke="rgba(233,242,239,0.35)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M126,242 C 133,230 146,227 152,239"
+                    fill="none"
+                    stroke="rgba(233,242,239,0.35)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </g>
+
+                <g opacity="0.22" filter="url(#softGlow)">
+                  <path
+                    d="M305,74 C 315,58 338,55 350,70 C 359,82 356,98 344,102 C 328,108 316,100 316,88"
+                    fill="none"
+                    stroke="rgba(233,242,239,0.55)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M334,62 C 337,54 346,50 352,56"
+                    fill="none"
+                    stroke="rgba(233,242,239,0.55)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                  <path
+                    d="M346,62 C 349,54 358,50 364,56"
+                    fill="none"
+                    stroke="rgba(233,242,239,0.55)"
+                    stroke-width="2"
+                    stroke-linecap="round"
+                  />
+                </g>
+              </svg>
+
+              <div class="card__title">Quick definition</div>
+              <p class="card__copy">
+                A Hop is a themed route signal: a route idea with a reason, a vibe, and a story.
+              </p>
+              <p class="card__copy">
+                Not a ticket, tour, booking, or transport service.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="What is a Hop?">
+        <h2 class="section-title">What is a Hop?</h2>
+        <p class="section-copy">
+          A Hop is a themed route signal: a route idea with a reason, a vibe, and a story. It is
+          not a ticket, tour, booking, or transport service.
+        </p>
+        <p class="section-copy">
+          The operator runs the route. Travellers verify and book independently. CoachBunny adds
+          the story layer.
+        </p>
+
+        <div class="not-instead" aria-label="Not this / Instead">
+          <div class="card not-instead__card">
+            <div class="card__title">Not</div>
+            <ul class="card__list">
+              <li>Ticket</li>
+              <li>Tour</li>
+              <li>Booking site</li>
+              <li>Transport operator</li>
+            </ul>
+          </div>
+          <div class="card not-instead__card">
+            <div class="card__title">Instead</div>
+            <ul class="card__list">
+              <li>Route idea</li>
+              <li>Social signal</li>
+              <li>Story layer</li>
+              <li>Independent travel pointer</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Why CoachBunny?">
+        <h2 class="section-title">Why CoachBunny?</h2>
+        <div class="feature-grid" aria-label="Reasons">
+          <div class="feature">Stranger routes</div>
+          <div class="feature">Better stories</div>
+          <div class="feature">Slower ways there</div>
+          <div class="feature">Independent travellers</div>
+          <div class="feature">Less obvious journeys</div>
+          <div class="feature feature--wide">
+            The obvious way gets you there. The strange way gives you a story.
+          </div>
+        </div>
+      </section>
+
+      <section id="lemon-line" class="section pilot" aria-label="First pilot concept">
+        <div class="pilot__header">
+          <h2 class="section-title">First pilot concept: Lemon Line to Ibiza Hop</h2>
+          <div class="badge" aria-label="Status">
+            <span class="badge__dot" aria-hidden="true"></span>
+            <span class="badge__text">Pilot concept in research.</span>
+          </div>
+        </div>
+
+        <p class="section-copy">Old track. Coastal stops. Dénia ferry gateway. Island lights.</p>
+        <p class="section-copy">
+          The Lemon Line to Ibiza Hop is a pilot concept in research, exploring a slower, stranger
+          way toward Ibiza through Costa Blanca route culture.
+        </p>
+
+        <div class="cta">
+          <a
+            class="cta__button cta__button--ghost"
+            href="mailto:hello@coachbunny.com?subject=Lemon%20Line%20to%20Ibiza%20Hop%20pilot%20note"
+            data-cta="mailto"
+            rel="nofollow"
+          >
+            Ask for the pilot note
+          </a>
+          <p class="cta__note" id="pilot-note" role="status" aria-live="polite"></p>
+        </div>
+      </section>
+
+      <section id="caveat" class="trust" aria-label="Caveat and trust">
+        <h2 class="section-title">Caveat</h2>
+        <p class="trust__caveat">
+          CoachBunny does not operate transport, ferries, taxis, venues, marinas, restaurants,
+          clubs, jobs, housing, events, or tours. CoachBunny does not sell tickets. This Hop is
+          currently a pilot concept in research. Travellers must verify and book directly with
+          relevant operators and official sources.
+        </p>
+        <div class="trust__grid" aria-label="Trust boundaries">
+          <div class="trust__panel">
+            <h3 class="trust__title">Public-claim boundaries</h3>
+            <ul class="trust__list">
+              <li>No immediate purchase CTAs</li>
+              <li>No promises about routes, ferries, or connections</li>
+              <li>No assertions about timetables, platforms, or precise fares</li>
+              <li>No partner status implied</li>
+            </ul>
+          </div>
+          <div class="trust__panel">
+            <h3 class="trust__title">Privacy</h3>
+            <ul class="trust__list">
+              <li>No personal data collection</li>
+              <li>No forms</li>
+              <li>No analytics</li>
+              <li>No cookies</li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <section class="section" aria-label="Teaser status">
+        <h2 class="section-title">Teaser status</h2>
+        <div class="card">
+          <ul class="card__list">
+            <li>Static concept page</li>
+            <li>No forms, cookies, analytics, or tracking</li>
+            <li>No booking, tickets, payments, or reservations</li>
+            <li>No live timetables, fares, operators, or availability</li>
+            <li>No promises about routes or connections</li>
+          </ul>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer" role="contentinfo">
+      <div class="container footer__inner">
+        <p class="footer__small">
+          CoachBunny — teaser page for a pilot concept in research.
+        </p>
+        <p class="footer__small">
+          <a class="footer__link" href="/docs/public-safety-notes.md" rel="nofollow">
+            Public safety notes
+          </a>
+        </p>
+      </div>
+    </footer>
+
+    <script src="/app.js" defer></script>
+  </body>
+</html>
